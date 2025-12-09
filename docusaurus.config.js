@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI/Spec-Driven Robotics Book',
-  tagline: 'A technical book on Physical AI & Humanoid Robotics',
+  title: 'AI Humanoid Robotics Course Book',
+  tagline: 'An AI-native textbook for physical AI and humanoid robotics',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://MrAhmed42.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/AI-Robotic-Course-Book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-github-org', // Usually your GitHub org/user name.
-  projectName: 'robotics-book', // Usually your repo name.
+  organizationName: 'MrAhmed42', // Usually your GitHub org/user name.
+  projectName: 'AI-Robotic-Course-Book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -68,7 +68,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'AI/Spec-Driven Robotics Book',
+        title: 'AI Humanoid Robotics Course',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AI/Spec-Driven Robotics Book. Built with Docusaurus.`,
+        copyright: 'Copyright © 2025 Meta-Cognition Lab. Built with Docusaurus and Spec-First.AI',
       },
       prism: {
         theme: prismThemes.github,
